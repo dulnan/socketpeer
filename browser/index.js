@@ -179,7 +179,8 @@ SocketPeer.prototype._rtcInit = function () {
 
   self.peer = new SimplePeer({
     initiator: self.initiator,
-    stream: self.stream
+    stream: self.stream,
+    objectMode: true
   });
 
   self.peer.on('connect', function () {
