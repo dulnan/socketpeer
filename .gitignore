@@ -11,3 +11,4 @@ data/
 lib-cov
 logs
 node_modules
+package-lock.json
